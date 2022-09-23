@@ -9,9 +9,19 @@ Given the nature of stock analysis, a larger number of companies and transacctio
 
 
 ## Results
-The initial version of the VBA code to automate stock analysis focus on simple readable code that would:
-* Create identifiers for the information
-*
+The initial version of the VBA code to automate stock analysis focus on simple readable code that would locate appropriate data sheet to and in the Analysis sheet calculate Total Volume, starting price, ending price and returns for each of the tickers define in an array. This method worked but consumed noticeable time as shown below:
+###Time to calculate 2017's analysis
+![2017.1](https://github.com/Li11iana/stock-analysis/blob/main/Resources/2017.1.png)
+###Time to calculate 2018's analysis
+![2018.1](https://github.com/Li11iana/stock-analysis/blob/main/Resources/2018.1.png)
+
+In the refactored version of the code all calculations were made and held in arrays until they were retrive to populate the analysis table. 
+###Refactired time to calculate 2017's analysis
+![2017.2](https://github.com/Li11iana/stock-analysis/blob/main/Resources/2017.2.png)
+###Refactored time to calculate 2018's analysis
+![2018.2](https://github.com/Li11iana/stock-analysis/blob/main/Resources/2018.2.png)
+
+The decrease in calculated time 
 
 *The analysis is well described with screenshots and code (4 pt).
 

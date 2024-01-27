@@ -30,7 +30,8 @@ Refactoring is described as the process of altering the internal structure of th
 ### Original code vs refactored code
 In the study: _The buggy side of code refactoring: understanding the relationship between refactorings and bugs_, the authors acknowledge that even when refactoring is done to improve a working code and reduce the risk of errors, in a significantly number of cases the refactoring introduces new "bugs" to the source code. An important factor to determine the success of the refactoring is the complexity of both the source code and the intent of the refactoring, it is vital to have a clear goal of the structural improvement that is going to take place and avoid taking major structural changes in the disguise of a refactoring project.
 
-## Sources for the Summary
+### Sources for the Summary
 
-Isabella Ferreira, Eduardo Fernandes, Diego Cedrim, Anderson Uchôa, Ana Carla Bibiano, Alessandro Garcia, João Lucas Correia, Filipe Santos, Gabriel Nunes, Caio Barbosa, Baldoino Fonseca, and Rafael de Mello. 2018. The buggy side of code refactoring: understanding the relationship between refactorings and bugs. In Proceedings of the 40th International Conference on Software Engineering: Companion Proceedings (ICSE '18). Association for Computing Machinery, New York, NY, USA, 406–407. https://doi.org/10.1145/3183440.3195030
+Isabella Ferreira, Eduardo Fernandes, Diego Cedrim, Anderson Uchôa, Ana Carla Bibiano, Alessandro Garcia, João Lucas Correia, Filipe Santos, Gabriel Nunes, Caio Barbosa, Baldoino Fonseca, and Rafael de Mello. 2018. _The buggy side of code refactoring: understanding the relationship between refactorings and bugs._ In Proceedings of the 40th International Conference on Software Engineering: Companion Proceedings (ICSE '18). Association for Computing Machinery, New York, NY, USA, 406–407. https://doi.org/10.1145/3183440.3195030
+
 Code Refactoring: Meaning, Purpose, Benefits.Published online March 28, 2022.https://sumatosoft.com/blog/code-refactoring-meaning-purpose-benefits
